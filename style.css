@@ -1,0 +1,111 @@
+/* ---------- CSS Reset -------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(220,220,220);
+}
+
+/*----------- Universal Styles -------*/
+/*----------- eg padding on your selections, utility classes, etc -------*/
+
+header, footer, .banner, .testimonial {
+  padding:5%;
+  .padded: 3%;
+}
+
+/*----------- Typography -------*/
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+h1 h2 h3, span {
+    font-weight: 700;
+    padding-right: 10px;
+    color: orange;
+}
+
+h1 {padding-top: 10px}
+
+h4, h2 {
+  text-align: center;
+}
+
+footer {
+    font-weight: 700;
+    padding-right: 10px;
+    color: white;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+
+
+/*----------- Banner and background images -------*/
+
+[class*='bg'],
+.banner {
+  background-color: rgb(200,200,200);
+}
+
+header {
+background-image: url('images/cover.jpg');
+background-size: cover;
+background-position: center;
+min-height: 50vh;
+padding: 30vh 5%;
+background-attachment: fixed;
+}
+
+[class*='bg-pug'] {
+  background-image: url('images/pug.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 35vh;
+}
+
+[class*='bg-bed'] {
+  background-image: url('images/bed.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 35vh;
+}
+
+.smallbanner {
+  background-image: url('images/pen.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+  }
+
+.smallbanner span {
+  color: white
+}
+
+/*----------- Testimonial Section -------*/
+[class*='testimonial'] {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+}
+
+.author{
+  text-align:right;
+  font-size: 1rem;
+}
+
+/*----------- Footer -------*/
+[class*='footimg'] {
+  background-color: rgb(60,60,65);
+  background-size: cover;
+  background-position: center;
+  min-height: 35vh;
+}
+
+
+/*----------- Contact form -------*/
