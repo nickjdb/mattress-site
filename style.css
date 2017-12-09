@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgb(220,220,220);
+
 }
 
 /*----------- Universal Styles -------*/
@@ -21,13 +21,23 @@ body {
 font-family: 'Montserrat', sans-serif;
 }
 
+.right {
+  text-align: right;
+}
+
 h1 h2 h3, span {
     font-weight: 700;
     padding-right: 10px;
     color: orange;
 }
 
-h1 {padding-top: 10px}
+h1 {padding-top: 10px;
+font-size: 5vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
 
 h4, h2 {
   text-align: center;
@@ -44,6 +54,17 @@ header {
   color: white;
 }
 
+p {
+  text-size: 1rem;
+}
+.padded {
+padding: 5%;
+}
+
+.padded h2{
+text-align: left;
+font-size: 1.7rem;
+}
 
 /*----------- Banner and background images -------*/
 
@@ -64,34 +85,56 @@ background-attachment: fixed;
 [class*='bg-pug'] {
   background-image: url('images/pug.jpg');
   background-size: cover;
-  background-position: center;
-  min-height: 35vh;
+  background-position: 81% 36%;
+  min-height: 50vh;
 }
 
 [class*='bg-bed'] {
   background-image: url('images/bed.jpg');
   background-size: cover;
-  background-position: center;
-  min-height: 35vh;
+  background-position: 50% 50%;
+  min-height: 50vh;
 }
 
 .smallbanner {
   background-image: url('images/pen.jpg');
   background-size: cover;
-  background-position: center;
-  min-height: 20vh;
+  background-position: 95% 25%;
+  min-height: 35vh;
   }
 
 .smallbanner span {
   color: white
 }
 
+.smallbanner h2 {
+  font-size: 1.7rem
+}
+
+.smallbanner h4 {
+  font-size: 1rem
+}
+
+footer {
+    background-color: rgb(60,60,65);
+}
+
+footer h2 {
+  text-align: left;
+}
+
+footer h2, span {
+  color= orange;
+}
+
+
 /*----------- Testimonial Section -------*/
 [class*='testimonial'] {
   background-color: white;
   background-size: cover;
   background-position: center;
-  min-height: 20vh;
+  min-height: 35vh;
+  font-size: 1rem;
 }
 
 .author{
@@ -107,5 +150,16 @@ background-attachment: fixed;
   min-height: 35vh;
 }
 
+input[type="submit"] {
+  background-color: orange;
+  background-size: auto;
+}
 
-/*----------- Contact form -------*/
+input, textarea, label {
+  display:block;
+  width: 100%;
+  padding:2%;
+  Margin: 10px;
+  border-radius:2px;
+  border: none;
+}
