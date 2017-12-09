@@ -175,3 +175,8 @@ input, textarea, label {
   border-radius:2px;
   border: none;
 }
+
+textarea {
+min-height: 25vh;
+
+}
