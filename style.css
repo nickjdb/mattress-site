@@ -1,6 +1,8 @@
 /* ---------- CSS Reset -------------*/
 
 * {
+  -webkit-box-sizing:border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -111,7 +113,7 @@ background-attachment: fixed;
 .smallbanner {
   background-image: url('images/pen.jpg');
   background-size: cover;
-  background-position: 95% 25%;
+  background-position: left;
   min-height: 55vh;
   }
 
@@ -176,6 +178,11 @@ input, textarea, label {
   border-radius:2px;
   border: none;
 }
+
+form {
+  margin: auto
+}
+]
 
 textarea {
 min-height: 25vh;
