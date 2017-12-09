@@ -2,6 +2,8 @@
  <html>
     <head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.1/gridlex.min.css">
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i,900" rel="stylesheet">
@@ -17,21 +19,27 @@
         <h3> the ultimate matress solution
       </div>
       </header>
+
     <section class="grid">
-      <div class="col-6 bg-pug"></div>
-      <div class="col-6-middle">
-        <section class="padded">
+      <!-- first box -->
+      <div class="col-6_xs-12 bg-pug"></div>
+      <!-- second box -->
+      <div class="col-6-middle_xs-12">
+        <div class="padded">
           <h2> built to last a <span>lifetime </span></h2>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-        </section>
         </div>
-      <div class="col-6-middle">
-        <section class="padded">
-          <h2> so <span> soft</span>you'll melt </h2>
+        </div>
+      </section>
+
+      <section class="grid mob-reverse">
+        <!-- third box -->
+      <div class="col-6-middle_xs-12 padded">
+                <h2> so <span> soft</span>you'll melt </h2>
           <p class="pic"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-        </section>
-        </div>
-      <div class="col-6 bg-bed"></div>
+      </div>
+        <!-- forth box -->
+      <div class="col-6_xs-12 bg-bed"></div>
     </section>
     <section class="smallbanner grid-middle">
     <div class="col">
@@ -51,13 +59,13 @@
     </section>
     <footer>
     <section class="grid-spaceBetween footimg">
-      <div class="col-4-middle">
+      <div class="col-4-middle_xs-12">
         <section>
           <h2> let's <span>connect</span> </h2>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </section>
         </div>
-      <div class="col-5-middle">
+      <div class="col-5-middle_xs-12">
         <section class="formspree">
         <form method="POST" action="http://formspree.io/YOUREMAILHERE">
      </label> <input type="Firstname" placeholder="Firstname" id= "firstname" required>

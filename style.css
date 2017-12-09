@@ -145,7 +145,7 @@ footer h2, span {
   background-color: white;
   background-size: cover;
   background-position: center;
-  min-height: 35vh;
+  min-height: 25vh;
   font-size: 1rem;
 }
 
@@ -169,7 +169,8 @@ input[type="submit"] {
 
 input, textarea, label {
   display:block;
-  width: 100%;
+  background-position: centre;
+  width: 80%;
   padding:2%;
   Margin: 10px;
   border-radius:2px;
@@ -178,5 +179,14 @@ input, textarea, label {
 
 textarea {
 min-height: 25vh;
+}
 
+@media(max-width:576px) {
+  [class*='bg'] {
+    padding-bottom: 50%;
+  }
+
+  .mob-reverse {
+      flex-direction: column-reverse;
+      }
 }
