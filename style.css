@@ -89,8 +89,8 @@ font-size: 1.7rem;
 header {
 background-image: url('images/cover.jpg');
 background-size: cover;
-background-position: center;
-min-height: 50vh;
+background-position: bottom;
+min-height: 70vh;
 padding: 30vh 5%;
 background-attachment: fixed;
 }
@@ -105,7 +105,7 @@ background-attachment: fixed;
 [class*='bg-bed'] {
   background-image: url('images/bed.jpg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: bottom;
   min-height: 50vh;
 }
 
